@@ -84,6 +84,5 @@ ________________________________________________
 
 
 ## operators
-
-    as same as any standard programming languages like java, c++ etc
-    [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
+as same as any standard programming languages like java, c++ etc
+[Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
