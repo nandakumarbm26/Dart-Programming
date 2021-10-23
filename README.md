@@ -58,3 +58,32 @@ ________________________________________________
     print(---your output goes here--);
     print("hello world"); -> output: hello world
 
+## String:
+    In raw string \n \t do not gets special treatment.
+    var rString = r'this is a raw string';
+
+    String interpolation:
+    use $var_name to interpolate;
+        var age=14;
+        var str='my age is $age'; => output: my age is 14
+
+    mulyiline string:
+        ''' multi_ line string goes here ''' \
+        or 
+        """ multi_ line string goes here """
+
+## data type conversion:
+    dataType.parse(value goes here);
+
+    ex:
+        int.parse('20'); '20'->20
+        int.parse('hello'); error! 
+
+        object.toString();
+        object.toStringAtFixed(2);
+
+
+## operators
+
+    as same as any standard programming languages like java, c++ etc
+    <a href="https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm">Opeartors reference</a>
