@@ -86,4 +86,4 @@ ________________________________________________
 ## operators
 
     as same as any standard programming languages like java, c++ etc
-    <a href="https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm">Opeartors reference</a>
+    [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
