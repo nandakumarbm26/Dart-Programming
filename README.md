@@ -1,5 +1,6 @@
 # This is a tutorial of DART programming language
 
+[Dart for java developers google code lab](https://codelabs.developers.google.com/codelabs/from-java-to-dart#0 "tutorial")
 
 * Dart is an open-source general-purpose programming language. It is originally developed by Google and later approved as a standard by ECMA. Dart is a new programming language meant for the server as well as the browser. Introduced by Google, the Dart SDK ships with its compiler – the Dart VM. The SDK also includes a utility -dart2js, a transpiler that generates JavaScript equivalent of a Dart Script. This tutorial provides a basic level understanding of the Dart programming language.
 
@@ -83,7 +84,7 @@ ________________________________________________
         object.toStringAtFixed(2);
 
 
-## operators
+## [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
 
-    as same as any standard programming languages like java, c++ etc
-    [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
+    as same as any standard programming languages like java, c++ etc.
+
