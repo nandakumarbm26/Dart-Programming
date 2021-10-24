@@ -122,7 +122,7 @@
 ## Collection
 ### List
     array is called List.
-     List name=['jack','jill'];
+    List name=['jack','jill'];
     names.lenth;  ->gives length of list
 
     List<dataType> name=[values....];  mutable list
