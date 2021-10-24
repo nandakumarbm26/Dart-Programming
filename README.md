@@ -1,6 +1,9 @@
-# This is a tutorial of DART programming language
+# DART programming language cheat sheet
+#### By nandakumarBM
 
-[Dart for java developers google code lab](https://codelabs.developers.google.com/codelabs/from-java-to-dart#0 "tutorial")
+## [Dart for java developers google code lab](https://codelabs.developers.google.com/codelabs/from-java-to-dart#0 "tutorial")
+
+## [Dart tutorials JavaTpoint](https://www.tutorialspoint.com/dart_programming/index.htm "Dart")
 
 * Dart is an open-source general-purpose programming language. It is originally developed by Google and later approved as a standard by ECMA. Dart is a new programming language meant for the server as well as the browser. Introduced by Google, the Dart SDK ships with its compiler – the Dart VM. The SDK also includes a utility -dart2js, a transpiler that generates JavaScript equivalent of a Dart Script. This tutorial provides a basic level understanding of the Dart programming language.
 
@@ -10,24 +13,24 @@
 
 ## libraries
 * import 'library_name';
-___
+
 
         * dart:io  - io operartions
         * dart:core - its like 
 
 ## DataTypes
-    int
-    double
-    String
-    bool
-    dynamic
+    1. int
+    2. double
+    3. String
+    4. bool
+    5. dynamic
 
-    var is used like auto keyword in C language.
+    Var is used like auto keyword in C language.
     in Dart programming language we have static and dynamic variable.
-    incase of static we cannot change the datatype of the variable.
-    using dynamic keyword to declare variable the any datatype value can be assigned. 
-________________________________________________
-    string type converstion
+    Incase of static we cannot change the datatype of the variable.
+    Using dynamic keyword to declare variable the any datatype value can be assigned. 
+
+### String type converstion
 
         var value=100;
         String s="this is a number $value";
@@ -37,7 +40,7 @@ ________________________________________________
 
         object.toString() method.
 
-## comment
+## Comment
     // IN-Line comment
 
     /*
@@ -47,14 +50,14 @@ ________________________________________________
 
     ///Documentations
 
-## variable declaration
+## Variable declaration
 
     var var_name = value;
 
     constant variable:
     const const_name= value;
 
-## print output
+## Print output
 
     print(---your output goes here--);
     print("hello world"); -> output: hello world
@@ -73,7 +76,7 @@ ________________________________________________
         or 
         """ multi_ line string goes here """
 
-## data type conversion:
+## Data type conversion:
     dataType.parse(value goes here);
 
     ex:
@@ -88,7 +91,7 @@ ________________________________________________
 
     as same as any standard programming languages like java, c++ etc.
 
-## loop
+## Loop
     for loop:
         for( var i = 1; i<=10 ; i++){
             loop_body;
@@ -116,7 +119,7 @@ ________________________________________________
 
     break; used to terminate the loop
 
-## collection
+## Collection
 
     array is called List.
     List name=['jack','jill'];
