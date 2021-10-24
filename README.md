@@ -84,7 +84,13 @@ ________________________________________________
         object.toStringAtFixed(2);
 
 
+<<<<<<< HEAD
 ## [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
 
     as same as any standard programming languages like java, c++ etc.
 
+=======
+## operators
+as same as any standard programming languages like java, c++ etc
+[Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
+>>>>>>> e73773a73eeeb81315dad100137bb40e5495441f

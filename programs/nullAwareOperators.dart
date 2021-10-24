@@ -6,7 +6,7 @@ class Num {
 
 main() {
   var n = Num();
-  int number;
+  int? number;
 
   number = n?.num;
 
