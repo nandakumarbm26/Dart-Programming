@@ -84,13 +84,49 @@ ________________________________________________
         object.toStringAtFixed(2);
 
 
-<<<<<<< HEAD
 ## [Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
 
     as same as any standard programming languages like java, c++ etc.
 
-=======
-## operators
-as same as any standard programming languages like java, c++ etc
-[Opeartors reference](https://www.tutorialspoint.com/dart_programming/dart_programming_operators.htm "operators")
->>>>>>> e73773a73eeeb81315dad100137bb40e5495441f
+## loop
+    for loop:
+        for( var i = 1; i<=10 ; i++){
+            loop_body;
+        }
+
+    // var numbers=[1,2,3,4];
+
+    for in loop:
+        for(var x in numbers){
+            loop_body;
+        }
+    
+    for each loop:
+        numbers.forEach((n)=>print(n));
+
+    while loop:
+        while(condition){
+            loop_body;
+        }
+    
+    do while loop:
+        do{
+            loop_body;
+        }while(condition);
+
+    break; used to terminate the loop
+
+## collection
+
+    array is called List.
+    List name=['jack','jill'];
+    names.lenth;  ->gives length of list
+
+    List<dataType> name=[values....];  mutable list
+
+    copy list:
+        var list2 = [...list2];
+
+    set: unordered collection of unique items;
+
+    var setName={values goes here};

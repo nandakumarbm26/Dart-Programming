@@ -1,14 +1,19 @@
-// ignore_for_file: file_names
-
+// ignore_for_file: file_names,
 class Num {
   int num = 10;
 }
 
 main() {
-  var n = Num();
+  var n;
   int? number;
+  print(number ??= 100);
 
-  number = n?.num;
+  int x = 100;
+  var result = x % 2 == 0 ? 'even' : 'odd';
+  print(result);
 
-  print(number);
+  var x1 = '100';
+  if (x1 is int) {
+    print("x is int");
+  }
 }
