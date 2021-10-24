@@ -120,16 +120,39 @@
     break; used to terminate the loop
 
 ## Collection
-
+### List
     array is called List.
-    List name=['jack','jill'];
+     List name=['jack','jill'];
     names.lenth;  ->gives length of list
 
     List<dataType> name=[values....];  mutable list
 
-    copy list:
+### copy list:
         var list2 = [...list2];
 
-    set: unordered collection of unique items;
+### set: unordered collection of unique items;
+        var setName={values goes here};
 
-    var setName={values goes here};
+### HashMap:
+        key-value pairs set;
+
+        var hashmap1={
+            //key:value;
+        }
+    
+## Functions
+
+    return_type function_name(arguments){
+        function_body;
+    }
+
+### ArrowFunction:
+
+    return_type fun_name(args) => fun_body ;
+    for example:
+        dynamic square(int num) => num * num ;
+
+### named and postional_parameters:
+    return_type function_name( positional_parameters, {named paramenters}){
+        function_body;
+    }
