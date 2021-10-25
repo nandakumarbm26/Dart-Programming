@@ -156,3 +156,36 @@
     return_type function_name( positional_parameters, {named paramenters}){
         function_body;
     }
+### optional paramenter:
+    dynamic sum2(var num1, [var num2]) => num1 + (num2 ?? 0);
+    within square bracket are optional parameneter.
+
+## CLASS
+
+    class class_name{
+        class variables declarations;
+
+        class_name(args){} //constructor
+
+        return_type methods( args ){
+            method_body;
+        }
+    }
+
+### Example:
+    class Person {
+        int age;
+        String name;
+
+        Person(this.name, [this.age = 18]); //constructor
+
+        Person.guest([this.name='guest',this.age=18]); //named Constructor
+
+        void showOutput() => print(name + " " + age.  toString());
+    }
+
+### final keyword : once value is assigned it cannot be modified.
+    refer : [final keyword Demo](programs\modifiers.dart "Demo"); 
+
+        
+    
