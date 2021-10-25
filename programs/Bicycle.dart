@@ -15,7 +15,4 @@ class Bicycle {
 void main(List<String> args) {
   var bike = Bicycle(2, 1);
   print(bike);
-  for (var i = 0; i < 10; i++) {
-    print(i);
-  }
 }
